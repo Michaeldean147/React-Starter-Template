@@ -13,8 +13,7 @@ export default class Navigation extends React.Component {
           <div className="navigationContainer">
      		<Icon />
           	<Link to="/home">Home</Link>
-          	<Link to="/about">About</Link>
-          	<Link to="/otherStuff">Stuff</Link>
+          	<Link to="/nasa">NASA APOD</Link>
           </div>
 		)
 	}

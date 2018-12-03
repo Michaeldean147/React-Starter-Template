@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import AppReducer from './AppReducer';
+import HomeReducer from './HomeReducer';
+import NasaReducer from './NasaReducer';
 const rootReducer = combineReducers({
-  AppState: AppReducer
+  HomeState: HomeReducer,
+  NasaState: NasaReducer
 });
 export default rootReducer;

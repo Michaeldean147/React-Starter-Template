@@ -1,9 +1,10 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import HomeMessage from '../components/HomeMessage.js';
 
 const mapStateToProps = function(state){
     return {
-        appState: state.AppState
+        homeState: state.HomeState
     };
 };
 
@@ -22,7 +23,9 @@ class Home extends React.Component {
 
 	render(){
 		return (
-          <p>{this.props.appState.HomeMessage}</p>
+			<div>
+	          <HomeMessage message={this.props.homeState.HomeMessage}/>
+			</div>
 		)
 	}
 

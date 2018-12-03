@@ -1,5 +1,10 @@
 export const initialState = {
-	AppState: {
-		HomeMessage: 'Welcome to Home'
+	HomeState: {
+		HomeMessage: 'Welcome to The Home Page',
+	},
+	NasaState: {
+		NasaData: {
+			title: 'Loading APOD...'
+		}
 	}
 }
