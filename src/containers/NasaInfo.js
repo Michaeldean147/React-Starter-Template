@@ -28,7 +28,9 @@ class NasaInfo extends React.Component {
 	render(){
 		let nasaData = this.props.nasaState.NasaData
 		return (
-			<NasaContent data={nasaData}/>
+			<div className='nasaContentContainer'>
+				<NasaContent data={nasaData}/>
+			</div>
 		)
 	}
 

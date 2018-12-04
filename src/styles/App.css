@@ -18,19 +18,46 @@ body {
 }
 
 .navigationContainer {
+  background-color: darkgray;
+  height: 66px;
   display: flex;
   align-items: center;
 }
 
 .navigationContainer a {
-  margin-left: 10px
+  margin-left: 10px;
+  text-decoration: none;
 }
 
+.homeContainer p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nasaContentContainer p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inputContainer input{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px; 
+    border-color: #A9A9A9;
+}
+
+.inputContainer button{
+    border-color: #A9A9A9;
+}
+
+.errorMessage {
+  color: red;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
 }
-
 
 .App-link {
   color: #61dafb;

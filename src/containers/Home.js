@@ -4,7 +4,8 @@ import HomeMessage from '../components/HomeMessage.js';
 
 const mapStateToProps = function(state){
     return {
-        homeState: state.HomeState
+        homeState: state.HomeState,
+        userState: state.UserState
     };
 };
 
@@ -23,8 +24,8 @@ class Home extends React.Component {
 
 	render(){
 		return (
-			<div>
-	          <HomeMessage message={this.props.homeState.HomeMessage}/>
+			<div className='homeContainer'>
+	          <HomeMessage userState={this.props.userState} message={this.props.homeState.HomeMessage}/>
 			</div>
 		)
 	}

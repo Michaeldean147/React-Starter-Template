@@ -10,10 +10,11 @@ export default class Navigation extends React.Component {
 
 	render(){
 		return (
-          <div className="navigationContainer">
-     		<Icon />
-          	<Link to="/home">Home</Link>
-          	<Link to="/nasa">NASA APOD</Link>
+          <div className='navigationContainer'>
+          		<Icon />
+          		<Link to="/">Home</Link>
+          		<Link to="/nasa">NASA</Link>
+  	          	<Link to="/signIn">Sign In</Link>
           </div>
 		)
 	}

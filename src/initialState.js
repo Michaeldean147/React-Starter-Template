@@ -6,5 +6,6 @@ export const initialState = {
 		NasaData: {
 			title: 'Loading APOD...'
 		}
-	}
+	},
+	UserState: {}
 }
